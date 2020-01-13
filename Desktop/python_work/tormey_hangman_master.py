@@ -21,7 +21,7 @@ class mainWindow(object):
         self.no_lives = 7
         self.master=master
         self.master.wm_title("Hangman")
-        Label(master, text = '   tormey-hangman', font = ('Arial', 30)).grid(row = 0, column = 0, columnspan = 10)
+        Label(master, text = '   Hangman', font = ('Arial', 30)).grid(row = 0, column = 0, columnspan = 10)
         Label(master, text = ' ', font = ('Arial', 16)).grid(row = 1, column = 0, columnspan = 3)
         Label(master, text = 'Guess the word: ', font = ('Arial', 16)).grid(row = 2, column = 0, columnspan = 3, sticky = W)
         Label(master, text = 'Letters guessed: ', font = ('Arial', 16)).grid(row = 3, column = 0, columnspan = 3, sticky = W)
